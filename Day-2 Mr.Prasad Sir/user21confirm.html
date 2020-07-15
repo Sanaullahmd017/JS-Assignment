@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask the User if he is 21+ and log the value "Can drink", "Cannot drink"</title>
+    <script src="age.js"></script>
+
+    <script> 
+
+        var customerName = prompt("Please Enter Your Age", "");
+        if (customerName!= null) {
+            document.getElementById("age").innerHTML =
+            "Hello " + customerName + "! How are you today?";
+        }
+    </script>
+</head>
+<body>
+ <p>
+    Ask the User if he is 21+ and log the value "Can drink", "Cannot drink"
+ </p>   
+ <div id="age"></div>
+
+</body>
+</html>
