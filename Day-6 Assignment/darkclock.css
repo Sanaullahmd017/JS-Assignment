@@ -1,0 +1,18 @@
+*{
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+#text{
+    padding: 18px;
+    background-color: wheat;
+    max-height: 10px;
+    overflow: hidden;
+}
+#text.show{
+    max-height: max-content;
+}
+body{
+    color: rgb(240, 56, 10);
+    background-color: thistle;
+}
