@@ -19,10 +19,10 @@ button.onclick = ()=>{
     // button.onclick = function(){
 
     }
-
-    const dmode = document.getElementById('dark');
-    dmode.onclick = function changeColor(){}
-
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+     }
     // function showalert(){
     //     alert("Hey I am an alert from the button");
     // }

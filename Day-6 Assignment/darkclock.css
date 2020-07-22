@@ -5,7 +5,8 @@
 }
 #text{
     padding: 18px;
-    background-color: wheat;
+    background-color: pink;
+    color:black;
     max-height: 10px;
     overflow: hidden;
 }
@@ -16,3 +17,7 @@ body{
     color: rgb(240, 56, 10);
     background-color: thistle;
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
